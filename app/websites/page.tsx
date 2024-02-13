@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "My website projects"
+  };
+
 export default function WebsiteList() {
     return (
         <>
